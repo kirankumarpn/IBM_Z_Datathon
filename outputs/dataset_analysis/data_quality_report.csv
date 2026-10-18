@@ -1,0 +1,2 @@
+dataset_name,normal_source,attack_source,total_records,normal_records,attack_records,normal_percentage,attack_percentage,feature_count,duplicates_count,train_count,val_count,test_count,random_seed,environment
+CTU-13 Botnet & Normal Traffic,CTIJI ormaI_Traffic.csv,CTU13_Attack_Traffic.csv,92212,53314,38898,0.5781677005162018,0.4218322994837982,57,0,55326,18443,18443,42,"{'machine': 'AMD64', 'system': 'Windows', 'python_version': '3.14.7', 'is_ibm_z': False, 'runtime_notes': 'Workstation/Cloud Simulation (AMD64)'}"

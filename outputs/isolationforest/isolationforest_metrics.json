@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.8085994686330857,
+  "precision": 0.7028445971744941,
+  "recall": 0.946401028277635,
+  "f1_score": 0.8066389132340053,
+  "balanced_accuracy": 0.8272284612456354,
+  "roc_auc": 0.8389714800741674,
+  "confusion_matrix": {
+    "tn": 7550,
+    "fp": 3113,
+    "fn": 417,
+    "tp": 7363
+  },
+  "anomaly_threshold": -0.13216721291483716,
+  "model_name": "Isolation Forest Anomaly Detection",
+  "validation_f1": 0.8081695399143516
+}

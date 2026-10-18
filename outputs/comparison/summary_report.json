@@ -1,0 +1,85 @@
+{
+  "benchmark_summary": {
+    "total_test_flows": 18443,
+    "best_accuracy_model": "Hybrid Pipeline",
+    "best_accuracy_score": 0.998156482134143,
+    "best_recall_model": "XGBoost Classifier",
+    "best_recall_score": 0.9976863753213367,
+    "best_f1_model": "Hybrid Pipeline",
+    "best_f1_score": 0.9978146291297082
+  },
+  "models_evaluated": [
+    {
+      "Model": "XGBoost Classifier",
+      "Accuracy": 0.9981022610204413,
+      "Precision": 0.9978146291297082,
+      "Recall": 0.9976863753213367,
+      "F1_Score": 0.9977504981039913,
+      "Balanced_Acc": 0.9980460386406927,
+      "ROC_AUC": 0.9999816172349091,
+      "TN": 10646,
+      "FP": 17,
+      "FN": 18,
+      "TP": 7762
+    },
+    {
+      "Model": "Neural Autoencoder",
+      "Accuracy": 0.8411863579677926,
+      "Precision": 0.7974978535508401,
+      "Recall": 0.8357326478149101,
+      "F1_Score": 0.8161677022531852,
+      "Balanced_Acc": 0.8404490867321761,
+      "ROC_AUC": 0.9111668306449494,
+      "TN": 9012,
+      "FP": 1651,
+      "FN": 1278,
+      "TP": 6502
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.997668492110828,
+      "Precision": 0.9967895209965327,
+      "Recall": 0.9976863753213367,
+      "F1_Score": 0.9972377465150639,
+      "Balanced_Acc": 0.997670909690116,
+      "ROC_AUC": 0.9999317487108559,
+      "TN": 10638,
+      "FP": 25,
+      "FN": 18,
+      "TP": 7762
+    },
+    {
+      "Model": "Isolation Forest",
+      "Accuracy": 0.8085994686330857,
+      "Precision": 0.7028445971744941,
+      "Recall": 0.946401028277635,
+      "F1_Score": 0.8066389132340053,
+      "Balanced_Acc": 0.8272284612456354,
+      "ROC_AUC": 0.8389714800741674,
+      "TN": 7550,
+      "FP": 3113,
+      "FN": 417,
+      "TP": 7363
+    },
+    {
+      "Model": "Hybrid Pipeline",
+      "Accuracy": 0.998156482134143,
+      "Precision": 0.997942915916688,
+      "Recall": 0.9976863753213367,
+      "F1_Score": 0.9978146291297082,
+      "Balanced_Acc": 0.9980929297595149,
+      "ROC_AUC": 0.999981110955477,
+      "TN": 10647,
+      "FP": 16,
+      "FN": 18,
+      "TP": 7762
+    }
+  ],
+  "platform_info": {
+    "machine": "AMD64",
+    "system": "Windows",
+    "python_version": "3.14.7",
+    "is_ibm_z": false,
+    "runtime_notes": "Workstation/Cloud Simulation (AMD64)"
+  }
+}

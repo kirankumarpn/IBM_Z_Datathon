@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.8411863579677926,
+  "precision": 0.7974978535508401,
+  "recall": 0.8357326478149101,
+  "f1_score": 0.8161677022531852,
+  "balanced_accuracy": 0.8404490867321761,
+  "roc_auc": 0.9111668306449494,
+  "confusion_matrix": {
+    "tn": 9012,
+    "fp": 1651,
+    "fn": 1278,
+    "tp": 6502
+  },
+  "anomaly_threshold": 0.06095681422587598,
+  "model_name": "Neural Network Autoencoder",
+  "validation_f1": 0.8164695575996496
+}

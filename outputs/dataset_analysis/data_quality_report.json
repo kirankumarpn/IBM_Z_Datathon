@@ -1,0 +1,23 @@
+{
+  "dataset_name": "CTU-13 Botnet & Normal Traffic",
+  "normal_source": "CTIJI ormaI_Traffic.csv",
+  "attack_source": "CTU13_Attack_Traffic.csv",
+  "total_records": 92212,
+  "normal_records": 53314,
+  "attack_records": 38898,
+  "normal_percentage": 0.5781677005162018,
+  "attack_percentage": 0.4218322994837982,
+  "feature_count": 57,
+  "duplicates_count": 0,
+  "train_count": 55326,
+  "val_count": 18443,
+  "test_count": 18443,
+  "random_seed": 42,
+  "environment": {
+    "machine": "AMD64",
+    "system": "Windows",
+    "python_version": "3.14.7",
+    "is_ibm_z": false,
+    "runtime_notes": "Workstation/Cloud Simulation (AMD64)"
+  }
+}

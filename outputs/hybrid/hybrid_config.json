@@ -1,0 +1,10 @@
+{
+  "alpha_xgboost": 0.75,
+  "alpha_autoencoder": 0.25,
+  "tuned_threshold": 0.36,
+  "ae_normalization": {
+    "min": 0.002504499861970544,
+    "max": 58.885494232177734
+  },
+  "validation_f1": 0.9976851851851852
+}
